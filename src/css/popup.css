@@ -69,10 +69,7 @@
     float: right;
     color: blue;
   }
-  * {
-    box-sizing: border-box;
-  }
-  
+
   #regForm {
     background-color: #ffffff;
     margin: 0;
@@ -86,7 +83,7 @@
     text-align: center;  
   }
   
-  input {
+  #regForm input {
     padding: 10px;
     width: 100%;
     font-size: 17px;
@@ -95,7 +92,7 @@
   }
   
   /* Mark input boxes that gets an error on validation: */
-  input.invalid {
+  #regForm input.invalid {
     background-color: #ffdddd;
   }
   
@@ -119,7 +116,7 @@
   }
   
   /* Make circles that indicate the steps of the form: */
-  .step {
+  #steps .step {
     height: 15px;
     width: 15px;
     margin: 0 2px;

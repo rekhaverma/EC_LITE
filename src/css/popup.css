@@ -97,7 +97,7 @@
   }
   
   /* Hide all steps by default: */
-  .tab {
+  #regForm .tab {
     display: none;
   }
   
